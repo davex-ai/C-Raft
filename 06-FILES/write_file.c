@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 void writefile(){
-    FILE *pFile = fopen("files/c-file.txt", "w");
+    FILE *pFile = fopen("files/poem.txt", "w");
 
-    char file[] = "This Is a txt File.\n ";
+    char file[] = "THIS IS A POEM\nIT'S NOT A DUET\nSO WEPT NOT??";
     
     fprintf(pFile, "%s", file );
-    printf("New file created");
+    printf("New file created\n");
     fclose(pFile);
 }

@@ -6,18 +6,18 @@
 ***Code Snippet***
 ```C
 int main(){
-    readfile();
     writefile();
+    readfile();
 }
 ```
 
 ***Output***
 
 ```terminal
-ROSES ARE READ 
-VIOLETS ARE BLUE
-I'M CODING
-HOW BOUT YOUNew file created
+New file created
+THIS IS A POEM
+IT'S NOT A DUET
+SO WEPT NOT??
 ```
 
 ### Run
